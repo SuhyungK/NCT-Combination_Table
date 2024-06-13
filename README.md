@@ -1,1 +1,1 @@
-# NCT-Combination-Table
+# 📔 감정 일기장

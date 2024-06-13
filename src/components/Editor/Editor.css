@@ -1,0 +1,32 @@
+.Editor {
+  display: flex;
+  flex-direction: column;
+  gap: 2%;
+}
+
+.Editor .date-section > input,
+textarea {
+  border: none;
+  background-color: rgb(236, 236, 236);
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+
+.Editor .emotion-list-wrapper {
+  display: flex;
+  gap: 20px;
+}
+
+.Editor .content-section textarea {
+  width: 100%;
+  min-height: 200px;
+  padding: 20px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+.Editor .editor-footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
